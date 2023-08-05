@@ -1,13 +1,44 @@
+@font-face {
+    font-family: Roboto-LightItalic;
+    src: url(fonts/roboto/Roboto-LightItalic.ttf);
+}
+@font-face{
+    font-family: Roboto-Bold;
+    src: url(fonts/roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/roboto/Roboto-Light.ttf);
+}
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', arial;
+    font-size: 18px;
+}
+.header{
+    background-color: #1f2937;
+    font-family: 'Roboto-Bold';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .logo{
+    font-size: 24px;
+    color: #f9faf8;
+    padding-right: 420px;
+}
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.header .nav-links a{
+    font-size: 18px;
+    font-family: Roboto;
 }
 nav{
     background-color: #1f2937;
     color: #f9faf8;
-}
-nav .header-logo{
-    font-size: 24px;
 }
 a:visited{
     color: #f9faf8;
@@ -22,66 +53,127 @@ ul li{
 }
 button{
     background-color: #3882f6;
+    font-family: Roboto-Bold;
     color: #f9faf8;
-    border-radius: 5px;
+    border-radius: 6px;
     border: none;
-    padding: 5px 25px ;
+    padding: 8px 35px ;
 }
-header{
+.hero-cont{
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    margin-top: 0;
 }
-header h2{
+.hero{
+    background-color: #1f2937;
+    width: 600px;
+    height: 400px;
+}
+.hero-awesome{
     font-size: 48px;
     color: #f9faf8;
+    font-family: Roboto-Bold;
 }
-header p{
+.hero p{
     font-size: 18px;
     color: #e5e7eb;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.img-placeholder{
+    background-color: #6d747d;
+    color: #e5e7eb;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-placeholder img{
+    flex: 1;
 }
 section{
     background-color: white;
     color: #1f2937;
-    display: flex;
-}
-section h2{
-    font-size: 36px;
-    color: #1f2937;
 }
 .info{
     text-align: center;
+    font-family: Roboto-Bold;
+    color: #1f2937;
 }
 .cont-boxes{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .boxes{
-    
-    flex: 1;
+    width: 170px;
+    margin: 15px;
+    text-align: center;
 }
 .img-box{
-    border: 2px solid red;
+    border: 2px solid #3882f6;
+    height: 150px;
+    border-radius: 12px;
 }
-section .call-to{
+.article{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-family: Roboto-LightItalic;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+.article .quote{
+    padding-top: 100px;
+    width: 800px;
+    text-align: justify;
+}
+.thor{
+    text-align: right;
+}
+.article q{
+    quotes: none;
+    font-family: 'Roboto-Bold';
+    font-size: 24px;
+}
+.call{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+.call .call-to-box{
     color: #f9faf8;
     background-color: #3882f6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-section .call-to button{
+.call .call-to{
+    font-family: Roboto-Bold;
+    
+}
+.call .call-to-box button{
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 5px;
     border: 1px solid white;
     padding: 5px 25px ;
+    margin-left: 100px;
 }
-article{
-    background-color: #e5e7eb;
-    font-size: 36px;
-    color: #1f2937;
-    font-style: italic;
-}
-article q{
-    quotes: none;
-    font-style: normal;
+.call-to-light{
+    font-family: 'Roboto';
 }
 footer{
     background-color: #1f2937;
     color: #f9faf8;
+    text-align: center;
+    padding: 30px;
 }
