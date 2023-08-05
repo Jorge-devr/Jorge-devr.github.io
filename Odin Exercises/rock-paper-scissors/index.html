@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+
+    <header>
+        <h1>Rock Paper Scissors</h1>
+        <p>made with HTML, CSS and Javascript</p>
+        <main>
+            <p class="instructions" id="instructions">Best of 5 wins!</p>
+            <div class="scorer">
+                <p class="name name-player">Player</p>
+                <p class="name name-computer">Computer</p>
+                <p id="points">
+                    <span id="user-points">0</span>
+                    <span>-</span>
+                    <span id="computer-points">0</span>
+                </p>
+            </div>
+            <div class="choose-your-weapon" id="choose-your-weapon">
+                <h2>Choose your weapon for the next round</h2>
+                <div class="weapons">
+                     <button class="weapon" id="rock"><img src="img/rock.svg"></button>
+                     <button class="weapon" id="paper"><img src="img/paper.svg"></button>
+                     <button class="weapon" id="scissors"><img src="img/scissors.svg"></button>
+                </div>
+            </div>
+            <div class="mensaje" id="mensaje">
+                <p>You chose <span class="choise" id="user-choice">Paper<img src="img/paper.svg"></span><br>
+                    and the computer used <span class="choise" id="computer-choice">Rock<img src="img/rock.svg"></span>
+                </p>
+                <p id="get-point">You won the round! 🔥</p>
+            </div>
+            <button class="btn" id="restart">Restart game</button>
+        </main>
+    </header>
+
+    <script src="app.js"></script>
+</body>
+</html>
