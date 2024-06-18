@@ -1,2 +1,2 @@
 # odin-recipes
-This my first time writing about coding in english and i'm not using any translator, I'm very proud of myself. I found a place called "The Odin Project" and it looks amazing, even they have a progress bar like videogames, they have the mission to teach "how to become a web developer", teaching front and back-end developtment. I'm feeling the goods beening in this place..
+Odin is cool!
